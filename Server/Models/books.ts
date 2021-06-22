@@ -11,7 +11,7 @@ const BookSchema = new Schema
     Genre: String
 },
 {
-  collection: "books"
+  collection: "Books"
 });
 
 const Model = mongoose.model('Book', BookSchema);

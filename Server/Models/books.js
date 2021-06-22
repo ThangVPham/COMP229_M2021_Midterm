@@ -12,7 +12,7 @@ const BookSchema = new Schema({
     Author: String,
     Genre: String
 }, {
-    collection: "books"
+    collection: "Books"
 });
 const Model = mongoose_1.default.model('Book', BookSchema);
 exports.default = Model;
