@@ -8,7 +8,7 @@ const Schema = mongoose_1.default.Schema;
 const BookSchema = new Schema({
     Title: String,
     Description: String,
-    Price: String,
+    Price: Number,
     Author: String,
     Genre: String
 }, {
