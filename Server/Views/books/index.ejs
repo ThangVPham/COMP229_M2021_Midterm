@@ -35,11 +35,11 @@
                   <td class="text-center"><%= books[count].Description %></td>
 
                   <td class="text-center">
-                    <a href="/contact-list/edit/<%= books[count]._id %>" class="btn btn-primary btn-sm edit"><i class="fas fa-edit fa-sm"></i> Edit</a>
+                    <a href="/books/edit/<%= books[count]._id %>" class="btn btn-primary btn-sm edit"><i class="fas fa-edit fa-sm"></i> Edit</a>
                   </td>
 
                   <td class="text-center">
-                    <a href="/contact-list/delete/<%= books[count]._id %>" class="btn btn-danger btn-sm delete"><i class="fas fa-trash-alt fa-sm"></i> Delete</a>
+                    <a href="/books/delete/<%= books[count]._id %>" class="btn btn-danger btn-sm delete"><i class="fas fa-trash-alt fa-sm"></i> Delete</a>
                   </td>
                 </tr>
                 <% } %>
