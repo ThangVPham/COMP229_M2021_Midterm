@@ -1,3 +1,8 @@
+//Author: Thang Pham
+//ID: 300940831
+//WebApp Name: Book Store
+//---------------------------------------------
+
 // modules required for routing
 import express from 'express';
 const router = express.Router();

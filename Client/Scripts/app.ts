@@ -10,7 +10,7 @@
         if(!confirm("Are you sure?"))
         {
           event.preventDefault();
-          location.href = '/clothing-list';
+          location.href = '/books';
         }       
       });
     }

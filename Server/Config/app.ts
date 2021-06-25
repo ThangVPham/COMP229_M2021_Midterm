@@ -1,3 +1,8 @@
+//Author: Thang Pham
+//ID: 300940831
+//WebApp Name: Book Store
+//---------------------------------------------
+
 // moddules for node and express
 import createError from 'http-errors';
 import express from 'express';

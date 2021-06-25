@@ -1,3 +1,8 @@
+//Author: Thang Pham
+//ID: 300940831
+//WebApp Name: Book Store
+//---------------------------------------------
+
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema; // Schema alias
 
